@@ -2,10 +2,10 @@ const uri = "api/todo";
 let todos = null;
 function getCount(data) {
   const el = $("#counter");
-  let name = "to-do";
+  let name = "a fazer";
   if (data) {
     if (data > 1) {
-      name = "to-dos";
+      name = "a fazer";
     }
     el.text(data + " " + name);
   } else {
